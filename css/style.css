@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+}
+.name{
+   text-align: center;
+   margin: 2rem;
+   font-size: 3rem;
+   text-transform: capitalize;
+   width: 100%;
+}
+.name i{
+   color: #12ff12;
+}
+
+header{
+    width: 100%;
+   min-height: 100vh;
+}
+.cards{
+    flex-wrap: wrap;
+}
+ .card{
+    width: 20rem;
+    height: 20rem;
+    border-radius: .5rem;
+    margin: 5px;
+    overflow: hidden;
+   
+ }
+ .overview{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    border-radius: .5rem;
+    background-color: gray;
+    bottom: -10rem;
+    
+    opacity: 0;
+    transition: .5s;
+    padding: 1rem;
+ } 
+ .card:hover .overview {
+    opacity: 1;
+    bottom:-1rem;
+ 
+ }
+ .overview span {
+
+   display: block;
+   font-size: 1.5rem;
+   font-weight: 500;
+  
+ }
+ .card .img{
+    text-align: center;
+    height: 100%;
+ }
+
+.card img {
+    
+
+    width: 100%;
+    height: 80%;
+}
+
+.down-img {
+   align-items: center;
+}
+
+.down-img :first-child {
+   width: 80%;
+}
+.down-img :last-child {
+   width: 20%;
+}
+.search-text{
+   
+   margin: 2rem;
+   font-size: 3rem;
+   text-transform: capitalize;
+   width: 50%;
+}
+    
+.search-text i{
+   color: #12ff12;
+}
+.search{
+   align-items: center;
+}
+.inputs{
+   width: 50%;
+}
+.inputSearch{
+   background-color: white;
+   color: black;
+   width: 50% ;
+}
+.inputSearch:focus{
+ outline: none;
+}
+@media screen and ( max-width : 800px) {
+   .search{
+      flex-direction: column;
+   }
+   .search-text{
+      font-size: 2rem;
+   }
+   .inputs{
+      width: 50%;
+      
+   }
+      
+  
+  }
+    
