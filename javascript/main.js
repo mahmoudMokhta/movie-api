@@ -40,7 +40,7 @@ function response(data) {
                 </div>
             </div>
             
-            <p class="overview"><span>mahmoud</span>${overview}</p>
+            <p class="overview"><span>Description</span>${overview}</p>
         </div>`;
 
     cards.innerHTML += content;

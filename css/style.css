@@ -25,7 +25,7 @@ header{
 }
  .card{
     width: 20rem;
-    height: 20rem;
+    height: 27rem;
     border-radius: .5rem;
     margin: 5px;
     overflow: hidden;
@@ -53,6 +53,7 @@ header{
    display: block;
    font-size: 1.5rem;
    font-weight: 500;
+   background-color: rgba(0, 0, 0, 0);
   
  }
  .card .img{
@@ -71,10 +72,10 @@ header{
    align-items: center;
 }
 
-.down-img :first-child {
+.one {
    width: 80%;
 }
-.down-img :last-child {
+.two {
    width: 20%;
 }
 .search-text{
