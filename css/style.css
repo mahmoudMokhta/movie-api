@@ -4,6 +4,14 @@
     font-family: 'Poppins', sans-serif;
     background-color: black;
     color: white;
+    overflow-x: hidden;
+   
+}
+
+
+.light{
+   background-color: white;
+    color: black;
 }
 .name{
    text-align: center;
@@ -31,6 +39,8 @@ header{
     overflow: hidden;
    
  }
+
+   
  .overview{
     position: absolute;
     width: 100%;
@@ -79,7 +89,7 @@ header{
    width: 20%;
 }
 .search-text{
-   
+   overflow: hidden;
    margin: 2rem;
    font-size: 3rem;
    text-transform: capitalize;

@@ -5,12 +5,28 @@ fetch(URL)
   .then((response) => response.json())
   .then(response);
 
-// console.log(data)
+
+//                      dark mode
+// let header = document.querySelector('header')
+// let dark = document.querySelector(".dark");
+
+// header.addEventListener("click",()=>{
+//   if (dark.innerHTML = 'dark') {
+//     header.classList.toggle('black')
+//     dark.innerHTML = 'light'
+//   }else{
+//     dark.innerHTML = 'dark'
+//     header.classList.toggle('black')
+//   } 
+// })
+
+
+
 
 let input = document.querySelector(".inputSearch");
 let submit = document.querySelector(".submit");
 let cards = document.querySelector(".cards");
-// btn  submit
+// btn  submit & search
 submit.addEventListener("click", () => {
   cards.innerHTML = "";
   let inputSearch = input.value;
