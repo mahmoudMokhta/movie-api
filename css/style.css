@@ -2,10 +2,16 @@
     box-sizing: border-box;
     font-family: 'Cairo', sans-serif;
     font-family: 'Poppins', sans-serif;
-    background-color: black;
-    color: white;
+    
     overflow-x: hidden;
    
+}
+.black {
+   background-color: black;
+   color: white;
+}
+header{
+   transition: 1s;
 }
 
 
@@ -38,6 +44,16 @@ header{
     margin: 5px;
     overflow: hidden;
    
+ }
+ .btnDarkMode{
+   border: 1px solid white;
+   font-size: 2rem;
+   width: 10rem;
+   transition: .7s;
+ }
+ .btnDarkMode:hover {
+   color: #12ff12;           
+   border: 1px solid #12ff12;
  }
 
    
@@ -123,6 +139,9 @@ header{
    .inputs{
       width: 50%;
       
+   }
+   .name{
+      font-size: 2rem;
    }
       
   

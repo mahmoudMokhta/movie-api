@@ -7,18 +7,22 @@ fetch(URL)
 
 
 //                      dark mode
-// let header = document.querySelector('header')
-// let dark = document.querySelector(".dark");
+let header = document.querySelector('header')
+let btnDarkMode = document.querySelector(".btnDarkMode");
 
-// header.addEventListener("click",()=>{
-//   if (dark.innerHTML = 'dark') {
-//     header.classList.toggle('black')
-//     dark.innerHTML = 'light'
-//   }else{
-//     dark.innerHTML = 'dark'
-//     header.classList.toggle('black')
-//   } 
-// })
+btnDarkMode.addEventListener("click",()=>{
+  if (btnDarkMode.innerHTML == 'Dark') {
+    header.classList.toggle('black')
+    btnDarkMode.innerHTML = 'Light'
+    btnDarkMode.style.color = 'white'
+    btnDarkMode.style.background = 'black'
+  }else{
+    btnDarkMode.innerHTML = 'Dark'
+    header.classList.toggle('black')
+    btnDarkMode.style.color = 'black'
+    btnDarkMode.style.background = 'white'
+  } 
+})
 
 
 
