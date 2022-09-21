@@ -43,6 +43,7 @@ header{
     border-radius: .5rem;
     margin: 5px;
     overflow: hidden;
+    background-color: gray;
    
  }
  .btnDarkMode{

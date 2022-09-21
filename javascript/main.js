@@ -9,6 +9,12 @@ fetch(URL)
 //                      dark mode
 let header = document.querySelector('header')
 let btnDarkMode = document.querySelector(".btnDarkMode");
+let input = document.querySelector(".inputSearch");
+let submit = document.querySelector(".submit");
+let cards = document.querySelector(".cards");
+
+
+
 
 btnDarkMode.addEventListener("click",()=>{
   if (btnDarkMode.innerHTML == 'Dark') {
@@ -21,15 +27,16 @@ btnDarkMode.addEventListener("click",()=>{
     header.classList.toggle('black')
     btnDarkMode.style.color = 'black'
     btnDarkMode.style.background = 'white'
+    card.style.background = 'black'
   } 
 })
 
+// end dark mode 
 
 
 
-let input = document.querySelector(".inputSearch");
-let submit = document.querySelector(".submit");
-let cards = document.querySelector(".cards");
+
+
 // btn  submit & search
 submit.addEventListener("click", () => {
   cards.innerHTML = "";
@@ -66,3 +73,6 @@ function response(data) {
     cards.innerHTML += content;
   });
 }
+
+
+
